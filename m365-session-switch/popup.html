@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>M365 Portal Picker</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <header>
+    <div class="mark" aria-hidden="true">
+      <span></span><span></span><span></span><span></span>
+    </div>
+    <div>
+      <h1>Portal Picker</h1>
+      <p>Open an admin center and choose a signed-in account.</p>
+    </div>
+  </header>
+  <ul id="list"></ul>
+  <p id="status" class="status"></p>
+  <footer>Clears only that portal’s cached session, then opens it in a new tab. Your Microsoft sign-in accounts stay signed in.</footer>
+  <script src="popup.js"></script>
+</body>
+</html>

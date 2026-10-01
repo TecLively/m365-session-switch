@@ -1,0 +1,12 @@
+# OS and OneDrive files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Editor folders
+.vscode/
+.idea/
+
+# Packed extension builds and signing keys
+*.crx
+*.pem

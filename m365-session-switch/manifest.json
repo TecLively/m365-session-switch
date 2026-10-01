@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "M365 Portal Picker",
+  "version": "3.1.0",
+  "description": "Open a Microsoft 365 admin center in a new tab and choose which signed-in account to use. Does not sign you out.",
+  "permissions": ["cookies", "storage", "tabs", "browsingData"],
+  "host_permissions": [
+    "https://*.microsoft.com/*",
+    "https://*.cloud.microsoft/*",
+    "https://*.office.com/*",
+    "https://*.office365.com/*",
+    "https://*.azure.com/*"
+  ],
+  "action": {
+    "default_title": "Open an admin center and choose an account",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
