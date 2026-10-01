@@ -66,7 +66,6 @@ Permissions:
 
 - `cookies` and `browsingData` clear the selected portal's session.
 - `tabs` opens the portal in a new tab.
-- `storage` is reserved for extension state.
 - Host access is limited to Microsoft, Office, and Azure admin domains.
 
 ## Requirements
